@@ -3,6 +3,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("students/", include("students.urls")),
-    path("api-auth/", include("rest_framework.urls")),
+    path("students/", include("students.urls")), # web app endpoint
+    path("api-auth/", include("rest_framework.urls")), # for login/logout in the browsable API
 ]

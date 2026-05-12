@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse # for web app endpoint
 
-def students(request):
+def students(request): # web app endpoint
     # students = ["Ashley", "John", "Doe"]
     student = {
         "name": "Ashley",
