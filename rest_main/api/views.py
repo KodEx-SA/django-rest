@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import JsonResponse # for API endpoint
 
 def studentsView(request):
     # json response for API endpoint
