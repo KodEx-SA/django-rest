@@ -7,7 +7,7 @@ def students(request): # web app endpoint
         "id": 1,
         "name": "Ashley",
         "age": 25,
-        "grade": "A"
+        "course": "Computer Science"
     }
     # return HttpResponse(students)
-    return HttpResponse(f"Student: {student['name']}, Age: {student['age']}, Grade: {student['grade']}")
+    return HttpResponse(f"Student: {student['name']}, Age: {student['age']}, Course: {student['course']}")

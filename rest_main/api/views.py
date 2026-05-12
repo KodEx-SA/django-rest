@@ -7,6 +7,6 @@ def studentsView(request):
         "id": 1,
         "name": "Ashley",
         "age": 25,
-        "grade": "A"
+        "course": "Computer Science"
     }
     return JsonResponse(student)
